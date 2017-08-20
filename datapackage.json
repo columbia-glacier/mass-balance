@@ -1,0 +1,74 @@
+{
+  "name": "mass-balance",
+  "title": "Columbia Glacier Surface Mass Balance Data",
+  "description": "Annual surface mass balance measurements compiled from the 1978 campaign (sources/mayo-and-others-1979.pdf) and the 2010-2011 campaign (sources/oneel-2012.pdf).",
+  "version": "0.1.0",
+  "sources": [
+    {
+      "title": "Original data and documentation",
+      "path": "sources/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Ethan Welty",
+      "email": "ethan.welty@gmail.com",
+      "role": "author"
+    },
+    {
+      "title": "Shad O'Neel",
+      "role": "Led the 2010-2011 campaign and reduced the data from the 1978 campaign"
+    }
+  ],
+  "resources": [
+    {
+      "name": "data",
+      "path": "data/data.csv",
+      "title": "Mass balance data",
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "type": "date",
+            "format": "%Y",
+            "description": "Mass balance year"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Site name"
+          },
+          {
+            "name": "alt_name",
+            "type": "string",
+            "description": "Alternate site name"
+          },
+          {
+            "name": "longitude",
+            "type": "number",
+            "description": "Longitude (WGS84, EPSG:4326)",
+            "unit": "°"
+          },
+          {
+            "name": "latitude",
+            "type": "number",
+            "description": "Latitude (WGS84, EPSG:4326)",
+            "unit": "°"
+          },
+          {
+            "name": "elevation",
+            "type": "number",
+            "description": "Elevation (height above the WGS84 ellipsoid)",
+            "unit": "m"
+          },
+          {
+            "name": "annual_balance_we",
+            "type": "number",
+            "description": "Water-equivalent annual mass balance (from autumn the previous year to autumn of the current year)",
+            "unit": "m"
+          }
+        ]
+      }
+    }
+  ]
+}

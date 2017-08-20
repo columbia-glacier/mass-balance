@@ -1,0 +1,6 @@
+sample_weight,sample_bottom_depth,avg_core_length,avg_core_diam,volume,sampler,comments
+568,25,,,1000.0,wedge,
+507,75,,,1000.0,wedge,
+535,125,,,1000.0,wedge,
+510,175,,,1000.0,wedge,
+552,215,,,1000.0,wedge,At about 200cm depth grain size is 3mm.

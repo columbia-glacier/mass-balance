@@ -1,0 +1,15 @@
+sample_weight,sample_bottom_depth,avg_core_length,avg_core_diam,volume,sampler,comments
+233,25,,,1000.0,wedge,Low density snow near the surface is not saturated.
+524,75,,,1000.0,wedge,Ice layer existant at 85cm depth
+500,125,,,1000.0,wedge,"Very wet, saturated grains."
+532,242,28.7,7.3,1193.0,Kovacs,
+518,287,22.9,7.1,914.0,Kovacs,
+,342,,,,,"Slightly finer grains, no measurement."
+495,383,22.6,7.2,914.0,Kovacs,
+302,405,12.8,7.3,541.0,Kovacs,piece is unevenly cut
+396,442,16.2,7.3,681.0,Kovacs,
+,461,,,,,"Lost core, increasing grain size"
+518,515,21.2,7.2,857.0,Kovacs,
+350,532,16.0,7.0,619.0,Kovacs,
+465,620,21.7,6.8,795.0,Kovacs,
+,620,,,,,

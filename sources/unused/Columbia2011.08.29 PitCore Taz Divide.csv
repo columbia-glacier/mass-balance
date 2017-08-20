@@ -1,0 +1,13 @@
+sample_weight,sample_bottom_depth,avg_core_length,avg_core_diam,volume,sampler,comments
+,,,,1000.0,,No density measurements recorded in pit.
+,,,,1000.0,,
+,,,,1000.0,,
+,,,,1000.0,,
+,,,,1000.0,,
+,,,,1000.0,,
+440,201.0,28.7,7.1,1128.0,Kovacs,
+394,357.0,19.4,6.7,688.0,Kovacs,
+372,379.0,17.0,6.8,614.0,Kovacs,
+,534.0,,,,,"1st ice layer, 4cm thick"
+,616.0,,,,,dirt layer at course crystals.
+,616.0,,,,,bottom depth is an estimate. -EN
